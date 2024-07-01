@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 740px;
+    background-image: url("../img/Valer2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headColor{
+    width: 100%;
+    height: 740px;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+/* .down{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+} */
+.homeH1{
+    color: #ffffff;
+    padding: 20px 350px 380px 350px;
+}
+.homeP{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 350px 2px 600px;
+}
+.hraverh1{
+    font-size: 24px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+#flex-div{
+    width:100%;
+    height:auto;
+    font-size:65px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    color:#ffffff;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+.mark{
+    font-size: 20px;
+    text-align: center;
+}
+#flex-div>div{
+    margin:10px;
+}
+.nshan{
+    animation-name: nshansharj;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes nshansharj{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+span{
+    font-style: italic;
+}
+.day{
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+}
+.date{
+    color: #EBAE34FF;
+    font-style: italic;
+    font-size: 70px;
+}
+.day2{
+    font-size: 27px;
+    font-weight: 300;
+}
+.dayP{
+    font-size: 24px;
+    margin: 50px;
+}
+.programH1{
+    padding: 20px;
+    color:black;
+}
+.programP{
+    padding: 5px 30px;
+    font-size: 20px;
+}
+.programText{
+    text-align: center;
+    font-size: 40px;
+    padding: 0px 10px 70px 10px;
+}
+.programAll
+{
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.program{
+    width: 50%;
+    margin: auto;
+}
+.mijocarum{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+.fa-solid{
+    margin: 25px;
+    color: #EBAE34FF;
+    font-size: 40px;
+}
+.texanq{
+    padding: 15px;
+ }
+ iframe{
+     width: 520px;
+}
+.vayry{
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+.vayry>img{
+    width: 500px;
+    
+    height: 320px;
+    margin: 58px 0 30px 0;
+}
+.map{
+    background-color: white;
+    padding: 50px;
+}
+.ekexecuTexanq{
+    padding: 15px;
+}
+.ekexeci{
+    width: 100%;
+
+    height: 1000px;
+    text-align: center;
+}
+.ekexeci>img{
+    width: 500px;
+    
+    height: 320px;
+    margin: 58px 0 30px 0;
+}
+.nkar{
+    width: 520px;
+    height: 450px;
+}
+.ekexecuTexanq,
+.texanq{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;}
+.verj{
+    text-align: center;
+    margin: 15px;
+}
+.srtik{
+    font-size: 25px;
+}
+@media only screen and (max-width:600px){
+    .header{
+        background-position: center center;
+        height: 440px;
+    }
+    #flex-div{
+        font-size: 20px;
+        float: left;
+        position: absolute;
+        bottom: 5px;
+    }
+    .homeH1 {
+        padding: 0px;
+        position: absolute;
+        
+        font-size: 25px;
+    }
+    .homeP{
+        padding: 5px;
+        display: none;
+    }
+    .hraverh1{
+        width: 100%;
+    }
+    .dayP {
+        margin: 20px;
+    }
+    .headColor{
+        height: 440px;
+        padding: 20px;
+        position: relative;
+    }
+    .programH1{
+        padding: 5px;
+    }
+    .program {
+        width: 100%;
+    }
+    .programText{
+        padding: 5px;
+    }
+    .fa-solid {
+        font-size: 40px;
+    }
+    iframe{
+        width: 90%;
+    }
+    .nkar{
+        width: 90%;
+    }
+    .day{
+        margin: 0;
+        padding: 0;
+    }
+}
